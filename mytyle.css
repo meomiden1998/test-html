@@ -4,7 +4,9 @@
   box-sizing: border-box;
   font-family: "Roboto Condensed", sans-serif;
 }
-
+body{
+  background-color: #F3F5F7;
+}
 /*                                      css .top_header          */
 
 a {
@@ -177,9 +179,9 @@ a {
 #contener {
   margin: 10px 401px;
   background-color: white;
-  border: 1px solid rgb(243, 242, 242);
+  /* border: 1px solid rgb(243, 242, 242); */
 }
-
+/*  */
 .div_khuyenmai > h2 {
   font-size: 15px;
   margin: 10px 10px;
@@ -190,7 +192,7 @@ a {
   color: black;
 }
 .endtime {
-  padding-left: 520px;
+  padding-left: 542px;
   /* margin-left: 500px; */
   display: inline-block;
 }
@@ -200,12 +202,14 @@ a {
   padding: 5px 20px;
   color: white;
 }
-.div_khuyenmai>.div_slide{
-  margin: 0px 14px 0px 14px;
-}
+
 .div_khuyenmai>.div_slide >img {
   width: 100%;
+  padding: 0px 10px 1px 10px;
   margin-top: 10px;
+
+
+
 }
 
 .slide_sell > figure {
@@ -215,13 +219,22 @@ a {
 }
 
 .product { 
-  width: 215.6px;
+  width: 20%;
   display: inline-block;
   border: 1px solid rgb(235, 228, 228);
-  margin-right: -5px;
-  border-right-style:hidden ;
+  margin-right: -4px;
+
+
+
+
 }
 
+.slide_sell :first-child{
+  border-left-style: hidden;
+}
+.slide_sell :last-child{
+  border-right-style: hidden;
+}
 .product img {
   width: 100%;
 }
@@ -230,12 +243,76 @@ a {
   padding-left: 10px;
 }
 .price>del{
+  /* margin-left: 10px; */
+
   font-size: 12px;
   color: rgb(192, 189, 189);
   font-weight: bold;
 }
 .price>span{
+  margin-left: 15px;
   font-size: 12px;
   color: rgb(219, 34, 34);
   font-weight: bold;
+}
+.sell{
+  position: absolute;
+       margin: 30px 0px 0px 0px;
+       background-color: red;
+       padding: 15px 5px;
+       border-radius: 50px;
+      color: white;
+      font-weight: bold; 
+}
+.img_ads{
+  background-color: #F3F5F7;
+
+  display: inline-block;
+  width: 100%;
+}
+.img_ads .img1{
+  width: 49%;
+}
+.img_ads .img2{
+  width: 49%;
+  float:right;
+}
+
+
+/* .balo */
+
+.Balo h2{
+  display: inline-block;
+}
+.Balo>.span1{
+  float:right;
+  margin: 10px;
+}
+.Balo>.span1 a{
+  font-size: 12px;
+  color: black;
+  margin: 10px;
+
+
+}
+.last a{
+  color: red !important;
+  font-weight: bold;
+}
+
+.connet_right{
+  font-size: 15px;
+  color: black;
+  margin: 10px;
+}
+.kc1{
+  height: 10px;
+  /* background-color: bisque; */
+}
+
+.kc{
+  height: 30px;
+
+  background-color: #F3F5F7;
+
 }
