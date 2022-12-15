@@ -13,12 +13,12 @@ a{
 }
 #header{
   background-color: red;
-  color: white;
+  color: white ;
 }
 
 .top_header_right{
-  color: white;
-
+  color: rgb(223, 204, 204);
+  background-color: white;
   float: right;
   padding: 0px 5px;
   margin: 0px 5px;
@@ -48,7 +48,6 @@ a{
 }
 
 .top_header ul li{
-  color: white !important;
 
   display: inline-block;
 
