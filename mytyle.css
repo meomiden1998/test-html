@@ -405,6 +405,42 @@ tt3{
 /* Mobile */
 
 @media screen and (max-width: 768px) {
+
+  .Thuonghieu{
+    display: none;
+  }
+  .footer{
+    height: max-content;
+  }
+  .div_footer,.TTTT{
+    margin: 0 0px 40px;
+  
+  }
+  .info1{
+   position: relative;
+   left: 20px;
+   top: 20px;
+  }
+
+  .info{
+    /* display: inline-block; */
+    width: 80%;
+    margin: 20px;
+    
+  }
+.tt1,.tt2,.tt3{
+  display: block;
+  width: 90%;
+  margin: 20px 10px;
+
+
+}
+  .footer{
+    display: block;
+  }
+  .end{
+    display: none;
+  }
   .exp1{
     display: none;
   }
